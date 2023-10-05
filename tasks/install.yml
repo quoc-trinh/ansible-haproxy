@@ -37,7 +37,7 @@
 
 - name: 'Add haproxy apt repo (Ubuntu)'
   apt_repository:
-    repo: "ppa:vbernat/haproxy-1.5"
+    repo: "ppa:vbernat/haproxy-2.0"
     state: present
     update_cache: yes
   when: ansible_distribution == "Ubuntu"
